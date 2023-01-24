@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_phrase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wyświetl frazę"
+        android:onClick="displayPhrase" />
+
+    <Button
+        android:id="@+id/button_count1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kliknięcie 1"
+        android:onClick="countClick1" />
+
+    <Button
+        android:id="@+id/button_count2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kliknięcie 2"
+        android:onClick="countClick2" />
+
+    <TextView
+        android:id="@+id/text_count1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Licznik 1: 0"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text_count2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Licznik 2: 0"
+        android:textSize="18sp" />
+
+</LinearLayout>
